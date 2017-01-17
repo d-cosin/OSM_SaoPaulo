@@ -10,7 +10,7 @@ Technologies used:
 * Report written in markdown.
 
 Files presented in repo:
-* P3_Diogo_Cosin: markdown version report;
-* P3_Diogo_Cosin: PDF version report;
+* P3_Diogo_Cosin.md: markdown version report;
+* P3_Diogo_Cosin.pdf: PDF version report;
 * Audit.py: audit street types and postcodes;
 * Main.py: Extracts data from XML, transform in a MongoDB document format and records in MongoDB.
