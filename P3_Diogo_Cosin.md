@@ -363,12 +363,14 @@ In this case, the position returned are consistent given that they describe near
 
 ### Reputation Points for Users
 
-Some sites already use this kind of mechanics. For example, Stackoverflow's users must have minimum reputation points in order to edit posts. Using the same idea, the data audit process could reward users that have inserted good quality data. This way, users with good reputation should have more priority in editing OpenStreetMap tags.
+Some sites already use this kind of mechanics. For example, Stackoverflow's users must have minimum reputation points in order to edit posts. Using the same idea, the data audit process could reward users that have inserted good quality data. This way, users with good reputation should have more priority in editing OpenStreetMap tags.  
+This idea could result in higher data quality as only users with certain reputation would be allowed to edit the maps' node. Soon the data audit and data clening would become cheaper as the number of problematics fields would decrease. However, the data audit lower investment would cause a higher processing investment in the new reputation reward system. Soon, if the comunity users, generally speaking, already provides high data quality, the reputation system would not aggregate the amount of expected benefit, but only an additional cost.   
 
 ### Mapping Street Types using Machine Learning
 
 For the street type data audit and update process, the mapping dictionary was filled totally with human interference. This may mean a potential problem as new invalid street types may still be inserted by users. In this case, the dictionary will be not adapted for new inconsistent values, demanding a human edition.   
-As a solution, it might be possible to implement a unsupervised machine learning algorithm able to detect new inconsistent street types and programmatically relate it to the corrects ones through the mapping dictionary.
+As a solution, it might be possible to implement a unsupervised machine learning algorithm able to detect new inconsistent street types and programmatically relate it to the corrects ones through the mapping dictionary.  
+Implementing a new machine learning algorithm would decrease human interference in mapping new incosistencies, but it must be considered that applying and training a machine learning model is not an easy and cheap task. So, if the street type inconsistency cases granularity is small, the machine learning model cost/benefit will be harmed as it won't interfere so much in the mapping process. 
 
 ## Conclusion
 
