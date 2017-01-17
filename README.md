@@ -12,5 +12,5 @@ Technologies used:
 Files presented in repo:
 * P3_Diogo_Cosin.md: markdown version report;
 * P3_Diogo_Cosin.pdf: PDF version report;
-* Audit.py: audit street types and postcodes;
-* Main.py: Extracts data from XML, transform in a MongoDB document format and records in MongoDB.
+* audit.py: audit street types and postcodes;
+* main.py: Extracts data from XML, transform in a MongoDB document format and records in MongoDB.
