@@ -1,4 +1,4 @@
-# Udacity_P3
+# OpenStreetMap Study Case using MongoDB.
 
 Repositary used for Udacity Data Analyst Nanodegree 3rd Project: OpenStreetMap Study Case using MongoDB.
 
